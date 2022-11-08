@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title> Registration form </title>
+    </head>
+
+    <body>
+            <form>
+
+                <div> 
+                    <label> Enter First Name </label>
+                    <input type = "text" name = "Firstname" placeholder = "Enter First Name" required minlength = "2" maxlength = "12>
+                </div>
+                <br>
+
+                <div> 
+                    <label> Enter Last Name </label>
+                    <input type = "text" name = "Lastname" placeholder = "Enter Last Name">
+                </div>
+                <br>
+
+                <div>
+                    <label> Enter email Id </label>
+                    <input type = "email" name = "emailId">
+                </div>
+
+
+                <!-- text, email, password, number, file, tel, radio, various types used-->
+                <div>
+                    <label> Select DateofBirth </label>
+                    <input type = "date" name = "dateofBirth">
+
+                </div>
+
+                <div>
+                    <label> Enter Mobile Number </label>
+                    <input type = "tel" name = "mobilenumber" placeholder = "+91 8908908908"  min = "0" max = "10">
+                </div>
+
+                <div>
+                    <label> Enter Address </label>
+                    <textarea rows = "8" cols = "17"> </textarea>
+                </div>
+
+
+                <!--naukri website-->
+
+                <div>
+                    <label> select File/Resume </label>
+                    <input type = "file" name = "upload file">
+                </div>
+
+
+                 <div>
+                    <label> Enter age </label>
+                    <input type = "number" name = "age"   min ="15" max = "25">
+                 </div>
+
+                 <div>
+                    <label> Password </label>
+                    <input type = "password" name = "password" minlength="7" maxlength="18">
+                 </div>
+
+                 
+                 <div>
+                    <label> Select Gender </label>
+                    <input type = "radio" name = "gender">Male
+                    <input type = "radio" name = "gender">Female
+                    <input type = "radio" name = "gender">Others
+                 </div>
+
+                 <div> 
+                    <label> Select city </label>
+                    <select>
+                        <option>Bangalore</option>
+                        <option> Mangalore </option>
+                        <option> Chikamagalur </option>
+                    </select>
+                 </div>
+
+                
+                 <div>
+                    <label> Select Course </label>
+                    <input type = "checkbox" disabled>java
+                    <input type = "checkbox">python
+                    <input type = "checkbox">DotNet
+                 </div>
+
+                
+                 <div>
+                    <!--<input type = "submit"      or     -->
+                    <button type = "submit"> Submit </button>  
+                    <button type = "reset"> Reset </button>      
+                </div>
+
+                <form autocomplete = "off">
+
+                </form>
+
+    </body>
+
+</html>
+
+
+
+               <!--html 5 validation
+                how to turn off auto suggestion in html5-->
