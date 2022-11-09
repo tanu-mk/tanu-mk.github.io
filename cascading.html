@@ -1,0 +1,91 @@
+
+<!doctype html>
+
+<html>
+ 
+<head>
+    <title> cascading </title>
+
+    <!--Internal CSS-->
+
+    <style>
+
+       /* h1{
+            color : red;
+            font-size: 50px;
+            text-transform: uppercase;   element selector
+        }
+        h2{
+            color : red;
+            font-size: 50px;
+            text-transform: uppercase;
+        }*/
+
+        h1,h2 {
+            color : red;
+            font-size: 50px;
+            text-transform: uppercase;     
+        }
+        
+        .classSelector{
+            color: blue;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+        }
+
+        #header{
+            
+            font-size: 80px;
+     }
+
+        h3{
+            color: aqua;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <h1> Cascading Style Sheet</h1>
+    <h2> Grouping selector </h2>
+    <h1 class="classSelector"> Class Selector </h1>   <!-- change color using 3 tags-->
+     <h1  id = "header"> Id selector </h1>
+
+    <h3 class="classSelector" id="Id selector"> Any text </h3>
+
+
+
+    
+
+</body>
+
+
+
+
+</html>
+
+
+
+
+
+<!--<h2>cascading Stylesheet </h2> css- 200px - lowercase
+    <h3>cascading Stylesheet </h3> css- color - lowercase
+-->
+
+<!-- Different Selector 
+1. Element selector - only one element
+2. Grouping selector(Adv - reusability) - more than one element
+3. Class selector - Highest priority  b/w element selector and class selector
+    syntax : .classname{
+
+    }
+4. Id selector - 
+    syntax : #className{
+
+    }
+
+
+-->
