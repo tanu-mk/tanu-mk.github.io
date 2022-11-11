@@ -1,0 +1,18 @@
+
+h1,h2 {
+    color : red;
+    font-size: 50px;
+    text-transform: uppercase;     
+}
+
+.classSelector{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+#header{
+    
+    font-size: 80px;
+}

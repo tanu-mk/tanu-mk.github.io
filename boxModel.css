@@ -1,0 +1,67 @@
+.box{
+
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 80px;
+    padding-right: 50xp;
+
+    padding: 10px 20px 30px 40px;
+
+    border: 2px solid red;
+
+    margin: 20px;
+
+    background-color:antiquewhite;
+
+    
+}
+
+.rect{
+
+    border: 2px solid royalblue;
+    height: 100px;
+    width: 200px;
+}
+
+.rect1{
+    border: 3px solid black;
+    height: 70px;
+    width: 300px;
+}
+
+.rect2{
+
+    border: 2px solid red;
+    height: 40px;
+    width: 180px;
+    margin: 15px;
+
+
+}
+
+.rect3{
+
+    border: 4px solid gold;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+.rect4{
+
+    border: 4px solid green;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+
+body{
+
+    background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg');
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
