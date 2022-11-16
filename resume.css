@@ -1,0 +1,31 @@
+.email{
+    color: blue;
+}
+
+.link{
+    color: blue;
+}
+
+img{
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+
+.absolute{
+    right: 400px;
+    top: 2000px;
+    position: absolute;
+
+
+}
+
+form{
+    background-color:antiquewhite;
+    font-size:large;
+    border: solid black;
+    margin: 180px;
+    padding: 110px;
+    width: 800px;
+
+}

@@ -1,0 +1,111 @@
+/*Descendent selector*/
+div p{
+
+    color: crimson;
+}
+
+/*child selector*/
+div > p{
+    color: darkgreen;
+}
+
+/*Adjacent sibiling selector*/
+div + p{
+    color: blue;
+}
+
+/*General sibiling selector*/
+div ~ p{
+    /* color property*/
+         /*color:indigo;*/
+        /*color:rgb(45, 171, 272)*/
+        color: #3a1259;
+}
+
+
+
+/*position property*/
+
+.static{
+    position: static;
+    left:  100px;
+}
+
+.relative{
+ 
+     top: 100px;
+     right: -200px;
+    position: relative;
+}
+
+.absolute{
+
+    top: 0;
+    right: 0;
+    position:absolute;
+}
+
+
+.topleft{
+
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    color: chartreuse;
+
+}
+
+.imageparent{
+    position: relative;
+}
+
+/*.imagecircle{
+    border-radius: 15%;
+}*/
+
+body{
+    margin: 0;
+}
+
+.topright{
+    position: absolute;
+    bottom: 550px;
+    left: 0;
+    color: chartreuse;
+}
+
+.imagechild{
+    position: relative;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    background-color:green;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: red;
+}
+
+
+
+
+/* Navigation Bar*/
+
+ul{
+    list-style-type: none;
+    color: white;
+    background-color: green;
+}
+
+li{
+    padding: 4px;
+    margin: 0;
+}
+
+
+
