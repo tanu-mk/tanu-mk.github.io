@@ -1,0 +1,31 @@
+.head{
+    margin-left: 40%;
+}
+
+.para{
+    margin-left: 34%;
+}
+
+.clr{
+    background-color: aqua;
+}
+
+.explore{
+    margin-left: 10%;
+}
+
+
+.a{
+font-size: larger;
+margin-left: 45%;
+}
+
+img{
+    margin-left: 10%;
+    border-radius: 0%;
+    float:inline-start;
+    height: 400px;
+    width: 900px;
+    
+}
+

@@ -29,3 +29,21 @@ form{
     width: 800px;
 
 }
+
+body{
+    background-color: blue;
+}
+@media  screen and (min-width: 480px) {
+    body{
+        background-color: rgb(191, 229, 229);
+    }
+    /* form{
+        background-color:antiquewhite;
+        font-size:large;
+        border: solid black;
+        margin: 180px;
+        padding: 110px;
+        width: 800px;
+    
+    } */
+}

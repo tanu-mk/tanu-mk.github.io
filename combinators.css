@@ -105,6 +105,8 @@ ul{
 li{
     padding: 4px;
     margin: 0;
+    display: inline-block;
+    
 }
 
 
