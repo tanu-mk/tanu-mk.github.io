@@ -1,0 +1,1 @@
+Bootstrap is framework, ready code, It is used to create responsive webpage.

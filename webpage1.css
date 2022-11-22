@@ -25,7 +25,32 @@ img{
     border-radius: 0%;
     float:inline-start;
     height: 400px;
-    width: 900px;
+    width: 700px;
     
 }
 
+.featured{
+        
+    margin-left: 37%;
+
+}
+
+.tibet, .java, .explore, .kenya{
+
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 17%;
+}
+
+.par{
+
+    font-size: medium;
+}
+
+.form{
+    background-color: aqua;
+    margin-left: 30%;
+    position: absolute;
+}
+   
+    
