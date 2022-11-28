@@ -5,13 +5,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- body{
+ /*body{
 
 	padding: 13%;
 
- }
+ }*/
 
- form{
+ /* form{
 
     background-color: white;
     position: absolute;
@@ -25,7 +25,8 @@
     margin-top: -40px;
     box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.2);
 
-}
+} */
+
 
  :root {
 	--blue: #007bff;
