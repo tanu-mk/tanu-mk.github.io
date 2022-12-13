@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function validate(){
+            console.log("calling validate")
+
+            let firstName = document.getElementById("firstName")
+            console.log(firstName.value)
+            console.log(firstName.value.length)
+
+            if(firstName.value.length == ""){
+                console.log("Please Enter firstName ")
+                let message = document.getElementById("firstNameMessage")
+                message.innerHTML = "Please enter firstname"
+                message.style.color = 'blue'
+            }
+
+            let lastName = document.getElementById("lastName")
+            console.log(lastName.value)
+            console.log(lastName.value.length)
+
+            if(lastName.value.length == ""){
+                console.log("Please enter lastName")
+
+                let lastMessage = document.getElementById("lastNameMessage")
+                lastMessage.innerHTML = "Please enter lastName"
+                lastMessage.style.color = "blue"
+            }
+
+            let password = document.getElementById("password")
+            console.log(password.value)
+            console.log(password.value.length)
+
+            if(password.value.length <= 0){
+                console.log("Please enter password")
+                let key = document.getElementById("keyPassword")
+                key.innerHTML = "Please enter password"
+                key.style.color = "blue"
+            }
+
+                        //document.formName.
+            console.log(document.registration.gender)
+            console.log(document.registration.gender[0])
+            console.log(document.registration.gender[0].checked)
+            console.log(document.registration.gender[1].checked)
+            console.log(document.registration.gender[2].checked)
+
+            if(document.registration.gender[0].checked == false &&
+                document.registration.gender[1].checked == false &&
+                document.registration.gender[2].checked == false
+                ){
+                    console.log("Please select gender")
+
+                   
+                    let genderMessage = document.getElementById("genderMessage")
+                    genderMessage.innerHTML = "Please select gender"
+                    genderMessage.style.color = "blue"
+
+            }
+
+            console.log(document.registration.city)
+            console.log(document.registration.city[0])
+            console.log(document.registration.city[0].checked)
+            console.log(document.registration.city[1].checked)
+            console.log(document.registration.city[2].checked)
+
+            
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //  if(firstName.value == ""){
+        //          console.log("Please enter firstName")
+               
+        //  }
+
+     
+
+        }
+
+
+
+    </script>
+
+
+
+
+
+</head>
+<body>
+
+    <form name="registration">
+        <div>
+            <label> Enter FirstName </label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+        <div id = "firstNameMessage"></div>
+
+        <br>
+
+        <div>
+            <label>Enter lastName </label>
+            <input type = "text" name = "lastName" id="lastName">
+        </div>
+        <div id="lastNameMessage"></div>
+
+        <br>
+
+        <div>
+            <label> Enter Password </label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div id="keyPassword"></div>
+
+        <br>
+
+        <div>
+            <label> select Gender </label>
+            <input type = "radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name = "gender"> others
+        </div>
+        <div id = "genderMessage"> </div>
+
+
+        <br>
+
+        <div>
+            <label> Select city </label>
+            <select name = "city">
+                <option> Bangalore </option>
+                <option> Mangalore </option>
+            </select>
+        </div>
+
+
+
+
+
+
+        <button type="button" onclick="validate()">Register</button>
+
+        <br>
+
+        
+
+
+    </form>
+    
+
+</body>
+</html>
